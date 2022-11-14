@@ -6,16 +6,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-    <meta name="description" content="Base64 encoder, decoder, image editor and font viewer" />
-    <meta name="author" content="@nimadez" />
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:site" content="@nimadez" />
-    <meta name="twitter:creator" content="@nimadez" />
-    <meta name="twitter:title" content="Base64 Editor" />
-    <meta name="twitter:description" content="Base64 encoder, decoder, image editor and font viewer" />
-    <title>Base64 Editor</title>
+    <title>Base64 Encoder/Decoder</title>
     <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAvdJREFUWEftV01oE0EUfrOxXZqWxhRDRUEFY3WZlYI5SC7+IR7sRcRSMRS0eAto0XpQsJQeq1g9iRdPpgf/L70JFb0oiIewkzVIIQoiUm1qbZtgtzsyWyZMJrubpIq9ZC5Ldt/3vm++997uBME6L7TO/NAQ4OmApmk9cnlM05ysp2Saph0FAFXAfDVN872Yo0IAxvgLAGzxIcpblrU9m83+8hODMaZezwkhJd4yASIoMpmqwM/0JEr3bNvea5qm4UbC83Tcvw2BzkgpZDH1BJYmnoKrAA5qOX0C2vp7fZ2evXANVqY/lSUSASwXI2YCxOUpAGPMIi+Gxq5DM95TtcxW7jPkk1cBIfTQMIw+DohGo6qqqkX2e+P4KDR17axZgFMvL9vbhy+Dun9fWTJeDtFOXddvUEqH3PIwsJ8DVAaJ9ebMYowsAGMcBYCPXhupS8CP/iTYs3NVS8ECuAO8h7x2vyYBwTMny0SwDhYXJ9d1/QOldLdMnh8agfDNkepTwNSLYFooAlAKKNhSRkiXCs7v773n2YUSQhSM8RQAHGpNnoPgcfbeWV0r32ZgdmCwrK/q6gE///kUiDHy7pczWZi7Mvr3ApiNrWf7oFnXXKfArUEZxjKdfly7gGpT4EXCSBkWIfSIUtorOlNXCbgA27ZjiqK8AwDkNqry61YW7iaAu8aa2PkWyE3IxxAhdNgwjJc8RraUkfmNnV8fMWwtAu4YhjH43wXwOjqzRulPhFBI3j2P+WcOyAQLqceOg4WJZ6AeOwjKpg5oS5wquerWpG6W19QDuq4/oJQm6tmNICDnU+sdHgJygUBAT6fTi6UDCX+Xh++OwYZtW/36BwovXsHC+L2Kz7EMkpvb90ASi8WaisXibxRqh8DmCIRvjVaIyF8adu5Z2Wl2mSKEHPFTWpcAligej7fMz88v+W5/9eFrQsiBanFe50LPMyFPqGnaLkVR3soElNLnmUxmoBoxf97d3d1lWdYbIX6ZENIp4ht/TBoOrLsDfwC8vNcw3wr7GwAAAABJRU5ErkJggg==" />
     <style>
         @font-face {
@@ -111,7 +102,7 @@
                         <option value="3">Font</option>
                     </select>
                 </li>
-                <li><a href="https://nimadez.github.io/"><button>©2021</button></a></li>
+                <li><a href="https://dnihil.github.io/"><button>©2022</button></a></li>
             </ul>
         </div>
         <div class="resizer" data-direction="horizontal"></div>
@@ -124,7 +115,7 @@
             </div>
             <div class="resizer" data-direction="vertical"><button>::::</button></div>
             <div id="container_bottom">
-                <textarea placeholder="Text, Base64, File, Image, Paste, Drop, سلام, 你好, 💋" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" dir="ltr"></textarea>
+                <textarea placeholder="Add your text here and hit 'Convert'" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" dir="ltr"></textarea>
             </div>
         </div>
     </div>
